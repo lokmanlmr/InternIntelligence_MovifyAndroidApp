@@ -1,17 +1,30 @@
 # Movify App
-![[SplashScreen.jpg]]
+Screenshots:
 
-![[HomeFragment.jpg]]
+Here are some screenshots showcasing Movify in action:
 
-![[Search Fragment.jpg]]
+Splash Screen
+![Movify Spalsh Screen](images/SplashScreen.jpg)
+Login Screen
 
-![[Saved Fragment.jpg]]
+Register Screen
 
-![[UserFrament.jpg]]
+Home Screen
+![Movify Home Fragment](images/HomeFragment.jpg)
+Search Screen
+![Movify Search Screen](images/Search Fragment.jpg)
 
-![[Movie Deatils.jpg]]
+Saved Movies Screen
+![Movify Saved Movies Screen](images/Saved Fragment.jpg)
 
-![[Similair Movies List.jpg]]
+User Profile Screen
+![Movify Saved Movies Screen](images/UserFragment.jpg)
+
+Movie Details Screen
+![Movify Movie Details Screen](images/Movie Deatils.jpg)
+
+Similar Movies List
+![Movify Similar Movies List](images/Similair Movies List.jpg)
 
 ## About Movify
 
