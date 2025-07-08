@@ -1,30 +1,51 @@
 # Movify App
-Screenshots:
-
 Here are some screenshots showcasing Movify in action:
 
-Splash Screen
-![Movify Spalsh Screen](images/SplashScreen.jpg)
-Login Screen
+<table style="width:100%; border-collapse: collapse;">
+<tr>
+<td style="text-align: center; padding: 10px;">
+<p>Splash Screen</p>
+<img src="images/SplashScreen.jpg" alt="Movify Splash Screen" width="250"/>
+</td>
+<td style="text-align: center; padding: 10px;">
+<p>Register Screen</p>
+<img src="images/RegisterScreen.jpg" alt="Movify Register Screen" width="250"/>
+</td>
+<td style="text-align: center; padding: 10px;">
+<p>Login Screen</p>
+<img src="images/LoginScreen.jpg" alt="Movify Login Screen" width="250"/>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; padding: 10px;">
+<p>Home Screen</p>
+<img src="images/HomeFragment.jpg" alt="Movify Home Screen" width="250"/>
+</td>
+<td style="text-align: center; padding: 10px;">
+<p>Search Screen</p>
+<img src="images/Search Fragment.jpg" alt="Movify Search Screen" width="250"/>
+</td>
+<td style="text-align: center; padding: 10px;">
+<p>Saved Movies Screen</p>
+<img src="images/Saved Fragment.jpg" alt="Movify Saved Movies Screen" width="250"/>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; padding: 10px;">
+<p>User Profile Screen</p>
+<img src="images/UserFragment.jpg" alt="Movify User Profile Screen" width="250"/>
+</td>
+<td style="text-align: center; padding: 10px;">
+<p>Movie Details Screen</p>
+<img src="images/Movie Deatils.jpg" alt="Movify Movie Details Screen" width="250"/>
+</td>
+<td style="text-align: center; padding: 10px;">
+<p>Similar Movies List</p>
+<img src="images/Similair Movies List.jpg" alt="Movify Similar Movies List" width="250"/>
+</td>
+</tr>
+</table>
 
-Register Screen
-
-Home Screen
-![Movify Home Fragment](images/HomeFragment.jpg)
-Search Screen
-![Movify Search Screen](images/Search Fragment.jpg)
-
-Saved Movies Screen
-![Movify Saved Movies Screen](images/Saved Fragment.jpg)
-
-User Profile Screen
-![Movify Saved Movies Screen](images/UserFragment.jpg)
-
-Movie Details Screen
-![Movify Movie Details Screen](images/Movie Deatils.jpg)
-
-Similar Movies List
-![Movify Similar Movies List](images/Similair Movies List.jpg)
 
 ## About Movify
 
