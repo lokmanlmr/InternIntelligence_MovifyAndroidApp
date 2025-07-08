@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.Movify.view.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment">
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+            <argument
+                android:name="title"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_nav_home_to_seeAllFragment_popular"
+            app:destination="@id/seeAllFragment">
+            <argument
+                android:name="listType"
+                android:defaultValue="POPULAR_MOVIES_HOME"
+                app:argType="com.example.Movify.model.ListType" />
+
+        </action>
+        <action
+            android:id="@+id/action_nav_home_to_seeAllFragment_top_rated"
+            app:destination="@id/seeAllFragment">
+            <argument
+                android:name="listType"
+                android:defaultValue="TOP_RATED_MOVIES"
+                app:argType="com.example.Movify.model.ListType" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.Movify.view.fragments.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_nav_search_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment">
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+            <argument
+                android:name="title"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_saved"
+        android:name="com.example.Movify.view.fragments.SavedFragment"
+        android:label="Saved Movies"
+        tools:layout="@layout/fragment_saved">
+        <action
+            android:id="@+id/action_nav_saved_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment">
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+            <argument
+                android:name="title"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.Movify.view.fragments.UserFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_user" />
+
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="com.example.Movify.view.fragments.MovieDetailFragment"
+        android:label="{titleArg}"
+        tools:layout="@layout/fragment_movie_detail">
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_movieDetailFragment_to_self"
+            app:destination="@id/movieDetailFragment">
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+            <argument
+                android:name="title"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_movieDetailFragment_to_seeAllFragment_recommended"
+            app:destination="@id/seeAllFragment">
+            <argument
+                android:name="listType"
+                android:defaultValue="SIMILAR_MOVIES"
+                app:argType="com.example.Movify.model.ListType" />
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+            <argument
+                android:name="movieName"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/seeAllFragment"
+        android:name="com.example.Movify.view.fragments.SeeAllFragment"
+        android:label="fragment_see_all"
+        tools:layout="@layout/fragment_see_all">
+        <argument
+            android:name="listType"
+            app:argType="com.example.Movify.model.ListType" />
+        <argument
+            android:name="movieId"
+            app:argType="integer"
+            android:defaultValue="-1"/>
+        <argument
+            android:name="movieName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_seeAllFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" >
+            <argument
+                android:name="movieId"
+                app:argType="integer" />
+            <argument
+                android:name="title"
+                app:argType="string" />
+        </action>
+    </fragment>
+</navigation>

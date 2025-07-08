@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "802591975522",
+    "project_id": "movierecommendationapp-f5c79",
+    "storage_bucket": "movierecommendationapp-f5c79.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802591975522:android:de04d71631f835ed5c093b",
+        "android_client_info": {
+          "package_name": "com.example.Movify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVw-irQLboejDVfBpvh2-tJIdjM5_LoO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802591975522:android:8167e11051ebcbaf5c093b",
+        "android_client_info": {
+          "package_name": "com.example.moviesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVw-irQLboejDVfBpvh2-tJIdjM5_LoO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
