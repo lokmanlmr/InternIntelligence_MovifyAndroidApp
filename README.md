@@ -82,14 +82,13 @@ Movify comes packed with the following key functionalities:
 - **APIs:**
     - The Movie Database (TMDB) API for movie data and recommendations.
 
-        
 - **Other Libraries/Tools:**
-- [ Retrofit2,
--  Glide,
--  navigation,
--  viewpager2,
--  com.tbuonomo:dotsindicator:5.1.0
--  okhttp3 ]
+	- Retrofit2,
+	-  Glide,
+	-  navigation,
+	-  viewpager2,
+	-  com.tbuonomo:dotsindicator:5.1.0
+	-  okhttp3 
     
 
 ## Architecture
